@@ -1,1 +1,38 @@
 @import url("bootstrap");
+
+/* generics*/
+img {
+  max-width: 100%;
+  height: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+span {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* utils */
+.card-content {
+  background-color: #f79762;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+/* header */
+header {
+  background-color: #f79762;
+}
